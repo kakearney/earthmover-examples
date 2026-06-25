@@ -135,7 +135,7 @@ image(
 
 ```{r}
 library(terra)
-
+m <- vo_surface_bbox[, , 1]
 m_terra <- t(m)
 
 # terra expects first matrix row to be north/top,
